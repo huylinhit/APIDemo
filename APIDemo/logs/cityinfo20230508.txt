@@ -1,0 +1,339 @@
+2023-05-08 08:33:58.850 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-08 08:33:59.040 +07:00 [DBG] Hosting starting
+2023-05-08 08:33:59.245 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 8D0964BA03A6C6278F39576EEAD7965EBA6811F2)
+2023-05-08 08:33:59.317 +07:00 [INF] Now listening on: https://localhost:7269
+2023-05-08 08:33:59.317 +07:00 [INF] Now listening on: http://localhost:5078
+2023-05-08 08:33:59.317 +07:00 [DBG] Loaded hosting startup assembly APIDemo
+2023-05-08 08:33:59.317 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-08 08:33:59.318 +07:00 [INF] Hosting environment: Production
+2023-05-08 08:33:59.318 +07:00 [INF] Content root path: /Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/
+2023-05-08 08:33:59.318 +07:00 [DBG] Hosting started
+2023-05-08 08:33:59.333 +07:00 [DBG] Connection id "0HMQFCH5VR3SB" accepted.
+2023-05-08 08:33:59.334 +07:00 [DBG] Connection id "0HMQFCH5VR3SB" started.
+2023-05-08 08:34:00.272 +07:00 [DBG] Connection id "0HMQFCH5VR3SB" received FIN.
+2023-05-08 08:34:00.384 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" accepted.
+2023-05-08 08:34:00.385 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" started.
+2023-05-08 08:34:00.402 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" accepted.
+2023-05-08 08:34:00.403 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" started.
+2023-05-08 08:34:00.297 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-08 08:34:00.446 +07:00 [DBG] Connection id "0HMQFCH5VR3SB" stopped.
+2023-05-08 08:34:00.455 +07:00 [DBG] Connection id "0HMQFCH5VR3SB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-08 08:34:00.509 +07:00 [DBG] Connection 0HMQFCH5VR3SD established using the following protocol: "Tls12"
+2023-05-08 08:34:00.509 +07:00 [DBG] Connection 0HMQFCH5VR3SC established using the following protocol: "Tls12"
+2023-05-08 08:34:00.588 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7269/swagger/index.html - -
+2023-05-08 08:34:00.590 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-08 08:34:00.619 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-08 08:34:00.619 +07:00 [DBG] Request did not match any endpoints
+2023-05-08 08:34:00.760 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" completed keep alive response.
+2023-05-08 08:34:00.762 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7269/swagger/index.html - - - 200 - text/html;charset=utf-8 179.4265ms
+2023-05-08 08:34:00.785 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" accepted.
+2023-05-08 08:34:00.785 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" started.
+2023-05-08 08:34:00.789 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui-bundle.js - -
+2023-05-08 08:34:00.789 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-05-08 08:34:00.789 +07:00 [DBG] Request did not match any endpoints
+2023-05-08 08:34:00.793 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui.css - -
+2023-05-08 08:34:00.794 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-05-08 08:34:00.794 +07:00 [DBG] Request did not match any endpoints
+2023-05-08 08:34:00.819 +07:00 [DBG] Connection 0HMQFCH5VR3SE established using the following protocol: "Tls12"
+2023-05-08 08:34:00.820 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui-standalone-preset.js - -
+2023-05-08 08:34:00.820 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-05-08 08:34:00.820 +07:00 [DBG] Request did not match any endpoints
+2023-05-08 08:34:00.825 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-05-08 08:34:00.825 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" completed keep alive response.
+2023-05-08 08:34:00.826 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui.css - - - 200 143632 text/css 32.3378ms
+2023-05-08 08:34:00.912 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-05-08 08:34:00.913 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-05-08 08:34:00.917 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" completed keep alive response.
+2023-05-08 08:34:00.917 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" completed keep alive response.
+2023-05-08 08:34:00.917 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 97.2388ms
+2023-05-08 08:34:00.917 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7269/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 128.1611ms
+2023-05-08 08:34:01.496 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7269/swagger/v1/swagger.json - -
+2023-05-08 08:34:01.496 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-08 08:34:01.496 +07:00 [DBG] Request did not match any endpoints
+2023-05-08 08:34:01.761 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" completed keep alive response.
+2023-05-08 08:34:01.761 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7269/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.8527ms
+2023-05-08 08:39:11.941 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" received FIN.
+2023-05-08 08:39:12.024 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" received FIN.
+2023-05-08 08:39:12.082 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" received FIN.
+2023-05-08 08:39:12.086 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" sending FIN because: "The client closed the connection."
+2023-05-08 08:39:12.086 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" sending FIN because: "The client closed the connection."
+2023-05-08 08:39:12.086 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" sending FIN because: "The client closed the connection."
+2023-05-08 08:39:12.087 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" disconnecting.
+2023-05-08 08:39:12.087 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" disconnecting.
+2023-05-08 08:39:12.087 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" disconnecting.
+2023-05-08 08:39:12.090 +07:00 [DBG] Connection id "0HMQFCH5VR3SD" stopped.
+2023-05-08 08:39:12.090 +07:00 [DBG] Connection id "0HMQFCH5VR3SC" stopped.
+2023-05-08 08:39:12.090 +07:00 [DBG] Connection id "0HMQFCH5VR3SE" stopped.
+2023-05-08 10:03:40.789 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:03:41.136 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:03:41.144 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:04:30.418 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:04:30.760 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:04:30.767 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:04:52.579 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:04:52.916 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:04:53.061 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:08:08.426 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:08:08.755 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:08:08.835 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:08:08.838 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:08:08.839 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:08:08.839 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:08:08.851 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:11:02.176 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:11:02.518 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:11:02.665 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:12:28.016 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:12:28.345 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:12:28.483 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:16:56.926 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:16:57.299 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:16:57.551 +07:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.559 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.571 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.575 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.575 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.576 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:57.586 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:57.598 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:16:57.609 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (11ms).
+2023-05-08 10:16:57.622 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-08 10:16:57.644 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-08 10:16:57.647 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:57.652 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.029 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:16:58.032 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:16:58.067 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:16:58.068 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:16:58.068 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.068 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.070 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-08 10:16:58.074 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-08 10:16:58.075 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.075 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.080 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.081 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.091 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-05-08 10:16:58.091 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-05-08 10:16:58.091 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.091 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.092 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:16:58.097 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:16:58.098 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.098 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.100 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-05-08 10:16:58.100 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-05-08 10:16:58.100 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.101 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.101 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:16:58.102 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:16:58.106 +07:00 [DBG] A data reader was disposed.
+2023-05-08 10:16:58.106 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.106 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.125 +07:00 [INF] Applying migration '20230508031228_CityInfoContextInitialCreate'.
+2023-05-08 10:16:58.130 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.131 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.133 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-05-08 10:16:58.137 +07:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-05-08 10:16:58.138 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:16:58.139 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:16:58.139 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230508031228_CityInfoContextInitialCreate', '6.0.16');
+2023-05-08 10:16:58.140 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230508031228_CityInfoContextInitialCreate', '6.0.16');
+2023-05-08 10:16:58.143 +07:00 [DBG] Committing transaction.
+2023-05-08 10:16:58.147 +07:00 [DBG] Committed transaction.
+2023-05-08 10:16:58.150 +07:00 [DBG] Disposing transaction.
+2023-05-08 10:16:58.150 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:16:58.150 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:16:58.153 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:25:00.120 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:25:00.928 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:25:01.008 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:25:01.012 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:25:01.013 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:25:01.013 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:25:01.058 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:01.073 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:25:01.086 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-05-08 10:25:01.095 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-05-08 10:25:01.097 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:01.101 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:25:01.110 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:25:01.131 +07:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:25:01.134 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:25:01.139 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:01.158 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-05-08 10:25:01.158 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-05-08 10:25:01.158 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:01.158 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:25:01.159 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:25:01.160 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:25:01.164 +07:00 [DBG] A data reader was disposed.
+2023-05-08 10:25:01.165 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:25:01.165 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:01.167 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:25:28.448 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:25:29.243 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:25:29.324 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:25:29.327 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:25:29.328 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:25:29.328 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:25:29.374 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:29.386 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:25:29.400 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:25:43.031 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:25:43.831 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:25:43.967 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:25:43.970 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:25:44.067 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-08 10:26:20.512 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-08 10:26:21.298 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-08 10:26:21.350 +07:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.359 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.371 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.373 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.374 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.375 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.384 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.395 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.403 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2023-05-08 10:26:21.414 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-08 10:26:21.436 +07:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-08 10:26:21.439 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.444 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.543 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-08 10:26:21.547 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-08 10:26:21.580 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.580 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:26:21.580 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.580 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.581 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-08 10:26:21.588 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-08 10:26:21.589 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.589 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.593 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.594 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.602 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-05-08 10:26:21.602 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-05-08 10:26:21.603 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.603 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.603 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:26:21.607 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-08 10:26:21.607 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.607 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.611 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-05-08 10:26:21.611 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-05-08 10:26:21.611 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.611 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.613 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:26:21.614 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-08 10:26:21.618 +07:00 [DBG] A data reader was disposed.
+2023-05-08 10:26:21.618 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.618 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.633 +07:00 [INF] Applying migration '20230508032543_CityInfoContextInitialCreate'.
+2023-05-08 10:26:21.660 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.661 +07:00 [DBG] Opened connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.662 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-05-08 10:26:21.665 +07:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-05-08 10:26:21.666 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.666 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:26:21.667 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "City" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_City" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-05-08 10:26:21.675 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "City" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_City" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-05-08 10:26:21.678 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.678 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:26:21.678 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_City_CityId" FOREIGN KEY ("CityId") REFERENCES "City" ("Id") ON DELETE CASCADE
+);
+2023-05-08 10:26:21.684 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_City_CityId" FOREIGN KEY ("CityId") REFERENCES "City" ("Id") ON DELETE CASCADE
+);
+2023-05-08 10:26:21.684 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.690 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-05-08 10:26:21.690 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2023-05-08 10:26:21.691 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2023-05-08 10:26:21.699 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-08 10:26:21.699 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-08 10:26:21.699 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230508032543_CityInfoContextInitialCreate', '6.0.16');
+2023-05-08 10:26:21.703 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230508032543_CityInfoContextInitialCreate', '6.0.16');
+2023-05-08 10:26:21.705 +07:00 [DBG] Committing transaction.
+2023-05-08 10:26:21.713 +07:00 [DBG] Committed transaction.
+2023-05-08 10:26:21.715 +07:00 [DBG] Disposing transaction.
+2023-05-08 10:26:21.715 +07:00 [DBG] Closing connection to database 'main' on server '/Users/nguyenhuylinh/Documents/Projects/APIDemo/APIDemo/CityInfo.db'.
+2023-05-08 10:26:21.715 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-08 10:26:21.717 +07:00 [DBG] 'CityInfoContext' disposed.
