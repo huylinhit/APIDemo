@@ -1,19 +1,10 @@
 ﻿<Properties StartupConfiguration="{8CDEBFC4-2A08-4C4D-A831-18107C48049F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="APIDemo/Program.cs">
-    <Files>
-      <File FileName="APIDemo/DbContexts/CityInfoContext.cs" />
-      <File FileName="APIDemo/Program.cs" Line="37" Column="46" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="APIDemo" expanded="True">
-            <Node name="APIDemo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DbContexts" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
+            <Node name="APIDemo" selected="True" />
           </Node>
         </State>
       </Pad>
