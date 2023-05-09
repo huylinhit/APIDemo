@@ -34,6 +34,26 @@ namespace APIDemo.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("City");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Big City",
+                            Name = "Ho Chi Minh"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "City",
+                            Name = "Ha Noi"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Tour City",
+                            Name = "Da Lat"
+                        });
                 });
 
             modelBuilder.Entity("APIDemo.Entities.PointOfInterest", b =>
@@ -45,6 +65,9 @@ namespace APIDemo.Migrations
                     b.Property<int>("CityId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -55,6 +78,45 @@ namespace APIDemo.Migrations
                     b.HasIndex("CityId");
 
                     b.ToTable("PointOfInterest");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CityId = 1,
+                            Name = "Central Parl"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CityId = 1,
+                            Name = "Empire State Building"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CityId = 2,
+                            Name = "Vung Tau"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CityId = 2,
+                            Name = "Ba Ria"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CityId = 3,
+                            Name = "Dong Thap"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CityId = 3,
+                            Description = "Nothing Here",
+                            Name = "Hoc Mon"
+                        });
                 });
 
             modelBuilder.Entity("APIDemo.Entities.PointOfInterest", b =>

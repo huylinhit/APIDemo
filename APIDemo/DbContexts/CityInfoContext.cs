@@ -14,6 +14,65 @@ namespace APIDemo.DbContexts
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<City>().HasData(
+                new City("Ho Chi Minh")
+                {
+                    Id = 1,
+                    Description = "Big City"
+                },
+                new City("Ha Noi")
+                {
+                    Id = 2,
+                    Description = "City"
+                },
+                new City("Da Lat")
+                {
+                    Id = 3,
+                    Description = "Tour City"
+                }
+            );
+
+            modelBuilder.Entity<PointOfInterest>()
+                .HasData(
+                    new PointOfInterest("Central Parl")
+                    {
+                        Id = 1,
+                        CityId = 1,
+                    },
+                    new PointOfInterest("Empire State Building")
+                    {
+                        Id = 2,
+                        CityId = 1,
+                    },
+                    new PointOfInterest("Vung Tau")
+                    {
+                        Id = 3,
+                        CityId = 2,
+                    },
+                    new PointOfInterest("Ba Ria")
+                    {
+                        Id = 4,
+                        CityId = 2,
+                    },
+                    new PointOfInterest("Dong Thap")
+                    {
+                        Id = 5,
+                        CityId = 3,
+                    },
+                    new PointOfInterest("Hoc Mon")
+                    {
+                        Id = 6,
+                        CityId = 3,
+                        Description = "Nothing Here"
+                    }
+                );
+
+
+            base.OnModelCreating(modelBuilder);
+        }
+
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
         //    optionsBuilder.UseSqlite("ConnectionString");

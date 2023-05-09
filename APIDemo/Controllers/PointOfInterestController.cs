@@ -25,7 +25,6 @@ namespace APIDemo.Controllers
             _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
         }      
 
-
         [HttpGet]
         public ActionResult<IEnumerable<PointOfInterestDTO>> GetPointOfInterests(int cityId)
         {
@@ -100,7 +99,7 @@ namespace APIDemo.Controllers
         [HttpPut("{pointofinterestId}")]
         public ActionResult<PointOfInterestDTO> UpdatePointOfInterest(
             int cityId, int pointofinterestId,
-            PointOfIntrestUpdateDTO pointOfIntrest)
+            PointOfInterestUpdateDTO pointOfIntrest)
         {
             var CityList = _citiesDataStore.Cities.FirstOrDefault(item => item.Id == cityId);
 
@@ -125,7 +124,7 @@ namespace APIDemo.Controllers
         [HttpPatch("{pointofinterestId}")]
         public ActionResult<PointOfInterestDTO> PartiallyUpdatePointOfInterest(
             int cityId, int pointofinterestId,
-            JsonPatchDocument<PointOfIntrestUpdateDTO> patchDocument)
+            JsonPatchDocument<PointOfInterestUpdateDTO> patchDocument)
         {
             var CityList = _citiesDataStore.Cities.FirstOrDefault(item => item.Id == cityId);
 
@@ -134,36 +133,36 @@ namespace APIDemo.Controllers
                 return NotFound();
             }
 
-            var pointOfInterestFromStore = CityList.PointOfInterest.FirstOrDefault(item => item.Id == pointofinterestId);
+            var PointOfInterest = CityList.PointOfInterest.FirstOrDefault(item => item.Id == pointofinterestId);
 
-            if (pointOfInterestFromStore == null)
+            if (PointOfInterest == null)
             {
                 return NotFound();
             }
 
-            PointOfIntrestUpdateDTO pointOfInterestToPatch = new PointOfIntrestUpdateDTO()
+            PointOfInterestUpdateDTO pointofinterestpath = new PointOfInterestUpdateDTO()
             {
-                Name = pointOfInterestFromStore.Name,
-                Description = pointOfInterestFromStore.Description
+                Name = PointOfInterest.Name,
+                Description = PointOfInterest.Description,
             };
 
-            patchDocument.ApplyTo(pointOfInterestToPatch, ModelState);
+            patchDocument.ApplyTo(pointofinterestpath,
+                                  ModelState);
 
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (!TryValidateModel(pointOfInterestToPatch))
-            {
+            if (!TryValidateModel(pointofinterestpath)){
                 return BadRequest(ModelState);
             }
 
-
-            pointOfInterestFromStore.Name = pointOfInterestToPatch.Name;
-            pointOfInterestFromStore.Description = pointOfInterestToPatch.Description;
+            PointOfInterest.Name = pointofinterestpath.Name;
+            PointOfInterest.Description = pointofinterestpath?.Description;
 
             return NoContent();
+
         }
 
         [HttpDelete("{pointofinterestId}")]

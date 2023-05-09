@@ -14,8 +14,9 @@ namespace APIDemo.Entities
         [MaxLength(50)]
 		public string Name { get; set; }
 
-        [ForeignKey("CityId")]
+        public string? Description { get; set; }
 
+        [ForeignKey("CityId")]
         public City? City { get; set; }
 
         public int CityId { get; set; }
