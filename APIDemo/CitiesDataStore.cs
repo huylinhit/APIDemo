@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Xml.Linq;
-using APIDemo.Model;
+using APIDemo.Models;
 
 namespace APIDemo
 {
@@ -17,7 +17,7 @@ namespace APIDemo
                     Id = 1,
                     Name = "Ho Chi Minh",
                     Description = "",
-                    PointOfInterest = new List<PointOfInterestDTO>()
+                    PointOfInterests = new List<PointOfInterestDTO>()
                     {
                         new PointOfInterestDTO()
                         {
@@ -36,7 +36,7 @@ namespace APIDemo
                     Id = 2,
                     Name = "Ha Noi",
                     Description = "",
-                    PointOfInterest = new List<PointOfInterestDTO>()
+                    PointOfInterests = new List<PointOfInterestDTO>()
                     {
                         new PointOfInterestDTO()
                         {

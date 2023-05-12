@@ -4,7 +4,7 @@
 
 namespace APIDemo.Migrations
 {
-    public partial class CityInfoContextInitialCreate : Migration
+    public partial class MyFirst : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -29,6 +29,7 @@ namespace APIDemo.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Description = table.Column<string>(type: "TEXT", nullable: true),
                     CityId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -41,6 +42,51 @@ namespace APIDemo.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "City",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 1, "Big City", "Ho Chi Minh" });
+
+            migrationBuilder.InsertData(
+                table: "City",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 2, "City", "Ha Noi" });
+
+            migrationBuilder.InsertData(
+                table: "City",
+                columns: new[] { "Id", "Description", "Name" },
+                values: new object[] { 3, "Tour City", "Da Lat" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 1, 1, null, "Central Parl" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 2, 1, null, "Empire State Building" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 3, 2, null, "Vung Tau" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 4, 2, null, "Ba Ria" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 5, 3, null, "Dong Thap" });
+
+            migrationBuilder.InsertData(
+                table: "PointOfInterest",
+                columns: new[] { "Id", "CityId", "Description", "Name" },
+                values: new object[] { 6, 3, "Nothing Here", "Hoc Mon" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_PointOfInterest_CityId",

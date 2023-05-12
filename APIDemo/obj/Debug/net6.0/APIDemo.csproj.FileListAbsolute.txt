@@ -154,3 +154,5 @@ C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\APID
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\ref\APIDemo.dll
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\APIDemo.Properties.Resources.resources
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\APIDemo.csproj.GenerateResource.cache
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

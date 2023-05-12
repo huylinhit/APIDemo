@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIDemo.Models;
+using APIDemo.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIDemo.Controllers
@@ -10,26 +13,43 @@ namespace APIDemo.Controllers
     [Route("api/cities")]
     public class CitiesController : ControllerBase
     {
-        private readonly CitiesDataStore _citiesDataStore;
+        private readonly ICityInfoRepository _cityInfoRepository;
+        private readonly IMapper _mapper;
+        private readonly ILogger<CitiesController> _logger;
 
-        public CitiesController(CitiesDataStore citiesDataStore)
+        public CitiesController(ICityInfoRepository cityInfoRepository, IMapper mapper, ILogger<CitiesController> logger)
         {
-            _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
+            _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [HttpGet]
-        public ActionResult GetCities()
+        public async Task<ActionResult<IEnumerable<CityDTO>>> GetCities()
         {
-            return Ok(_citiesDataStore.Cities);
+            var citiesList = await _cityInfoRepository.GetCitiesAsync();
+
+
+            return Ok(_mapper.Map<IEnumerable<CityWithoutPointOfInterestDTO>>(citiesList));
         }
 
-        [HttpGet("{id}")]
-        public ActionResult GetCityById(int id)
+        [HttpGet("{cityId}")]
+        public async Task<IActionResult> GetCityById(int cityId, bool includePointOfInterest = false)
         {
-            var City = _citiesDataStore.Cities.SingleOrDefault(item => item.Id == id);
+            var CityFromStore = await _cityInfoRepository.GetCityAsync(cityId, includePointOfInterest);
 
-            if (City != null) return Ok(City);
-            else return NotFound();
+            if (!await _cityInfoRepository.isCityExist(cityId))
+            {
+                _logger.LogCritical($"The cityId = {cityId} isn't exist");
+                return NotFound();
+            }
+
+            if (includePointOfInterest)
+            {
+                return Ok(_mapper.Map<CityDTO>(CityFromStore));
+            }
+
+            return Ok(_mapper.Map<CityWithoutPointOfInterestDTO>(CityFromStore));
         }
     }
 }

@@ -6,8 +6,8 @@ namespace APIDemo.DbContexts
 {
 	public class CityInfoContext : DbContext
 	{
-		public DbSet<City> City { get; set; } = null!;
-		public DbSet<PointOfInterest> PointOfInterest { get; set; } = null!;
+		public DbSet<City> Cities { get; set; } = null!;
+		public DbSet<PointOfInterest> PointOfInterests { get; set; } = null!;
 
         public CityInfoContext(DbContextOptions<CityInfoContext> options) : base(options)
         {
@@ -40,26 +40,35 @@ namespace APIDemo.DbContexts
                     {
                         Id = 1,
                         CityId = 1,
+                        Description = "a"
                     },
                     new PointOfInterest("Empire State Building")
                     {
                         Id = 2,
                         CityId = 1,
+                        Description = "a"
+
                     },
                     new PointOfInterest("Vung Tau")
                     {
                         Id = 3,
                         CityId = 2,
+                        Description = "a"
+
                     },
                     new PointOfInterest("Ba Ria")
                     {
                         Id = 4,
                         CityId = 2,
+                        Description = "a"
+
                     },
                     new PointOfInterest("Dong Thap")
                     {
                         Id = 5,
                         CityId = 3,
+                        Description = "a"
+
                     },
                     new PointOfInterest("Hoc Mon")
                     {

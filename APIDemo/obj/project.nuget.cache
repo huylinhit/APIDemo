@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RKAOH2S3YTi9EFRhqYOqbcOqaW6VW+69qY66AOXwz1sKwsiWHDKjdLIYmfu0tFepdTcJZDOfy8cRsdJG7fRYug==",
+  "dgSpecHash": "4NQw3FMs/SKHY5tX4JjWn741XWYfeHiyf/6cNWpfvYyoDUao/ydzTCggq+7jgnpPn8rhdx/VLoyxeQwU/RFqdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nguyen Huy Linh\\Desktop\\C#Project\\APIDemo\\APIDemo\\APIDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nguyen Huy Linh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Nguyen Huy Linh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\Nguyen Huy Linh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nguyen Huy Linh\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.16\\microsoft.aspnetcore.jsonpatch.6.0.16.nupkg.sha512",
     "C:\\Users\\Nguyen Huy Linh\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.16\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.16.nupkg.sha512",

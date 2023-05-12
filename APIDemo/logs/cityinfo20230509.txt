@@ -1,0 +1,490 @@
+2023-05-09 21:42:40.858 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:42:41.657 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:42:41.798 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.799 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.801 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.825 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.848 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.858 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.859 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.881 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.881 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.881 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.897 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.913 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.917 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.917 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.917 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.920 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.920 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.920 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.923 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.923 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.933 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:42:41.942 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:42:41.986 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:42:41.986 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:42:41.993 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.993 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:41.993 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.387 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.387 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.387 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.388 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.388 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.388 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.388 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.389 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.389 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.389 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.390 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.390 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.390 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.394 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.394 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.394 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.395 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.395 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.395 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.396 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.396 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:42.396 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.236 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.237 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.237 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.237 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.237 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.237 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Added"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Added"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Added"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:42:43.238 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:42:43.238 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:42:43.242 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:42:43.242 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:42:43.319 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:42:52.407 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:42:53.176 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:42:53.218 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:43:41.146 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:43:41.867 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:43:41.902 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:44:26.457 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:44:27.183 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:44:27.227 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:44:33.727 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:44:34.443 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:44:34.583 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.584 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.584 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.603 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.616 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.627 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.627 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.627 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.627 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.628 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.650 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.650 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.650 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.665 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.665 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.665 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.665 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.667 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.667 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.667 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.667 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.702 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.702 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.702 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.702 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.703 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.703 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.703 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.718 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.722 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.722 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.722 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.724 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.724 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.739 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:44:34.747 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:44:34.795 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:44:34.795 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:44:34.803 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.803 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.803 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.804 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.804 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:34.804 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.545 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.545 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.545 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.546 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.546 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.546 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.547 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.547 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.547 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.548 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.548 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.548 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.549 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.549 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.549 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.549 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.550 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.550 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.550 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.550 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:35.550 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.528 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.528 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.529 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.529 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.529 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.529 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.530 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.530 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.530 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.531 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.531 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.532 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:44:36.532 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:44:36.533 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:44:36.534 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:44:36.534 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:44:36.621 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:44:52.783 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:44:53.529 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:44:53.563 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:45:59.701 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:46:00.463 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:46:00.603 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.603 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.603 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.623 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.635 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.646 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.668 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.668 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.668 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.682 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.682 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.682 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.682 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.684 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.699 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.702 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.703 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.703 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.705 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.705 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.719 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:46:00.727 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:46:00.776 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:46:00.776 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:46:00.784 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.784 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.784 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Detached"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.785 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.786 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.786 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.786 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.786 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.786 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.808 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'PointOfInterest' changed to '"Deleted"' state due to severed required relationship to its parent entity of type 'City'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Modified"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.809 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 21:46:00.810 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:46:00.810 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:46:00.810 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 21:46:00.810 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 21:46:00.919 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 21:46:21.740 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 21:46:22.492 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 21:46:22.532 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 22:19:39.405 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 22:19:40.169 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 22:19:40.334 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.335 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.335 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.357 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-05-09 22:19:40.383 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 22:19:40.391 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 22:19:40.529 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 22:20:18.732 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 22:20:19.634 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 22:20:19.671 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 22:20:27.940 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 22:20:28.717 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 22:20:28.755 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 22:21:22.985 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 22:21:23.694 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 22:21:23.731 +07:00 [DBG] 'CityInfoContext' disposed.
+2023-05-09 22:22:38.537 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-05-09 22:22:39.233 +07:00 [INF] Entity Framework Core 6.0.16 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.16' with options: None
+2023-05-09 22:22:39.292 +07:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.300 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.314 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.316 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.316 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.317 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.327 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.338 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.348 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2023-05-09 22:22:39.360 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-09 22:22:39.409 +07:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-05-09 22:22:39.411 +07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.416 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.555 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-05-09 22:22:39.561 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-05-09 22:22:39.617 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.617 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.617 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.617 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.617 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-09 22:22:39.636 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-05-09 22:22:39.636 +07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.636 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.638 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.639 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.651 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-05-09 22:22:39.651 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-05-09 22:22:39.652 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.652 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.652 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-09 22:22:39.656 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-05-09 22:22:39.656 +07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.656 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.659 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-05-09 22:22:39.659 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-05-09 22:22:39.659 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.659 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.659 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-09 22:22:39.660 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-05-09 22:22:39.662 +07:00 [DBG] A data reader was disposed.
+2023-05-09 22:22:39.662 +07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.662 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.682 +07:00 [INF] Applying migration '20230509151940_MyFirst'.
+2023-05-09 22:22:39.718 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.718 +07:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.720 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-05-09 22:22:39.723 +07:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-05-09 22:22:39.724 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.724 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.724 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "City" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_City" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-05-09 22:22:39.725 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "City" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_City" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-05-09 22:22:39.725 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.725 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.725 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_City_CityId" FOREIGN KEY ("CityId") REFERENCES "City" ("Id") ON DELETE CASCADE
+);
+2023-05-09 22:22:39.725 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterest_City_CityId" FOREIGN KEY ("CityId") REFERENCES "City" ("Id") ON DELETE CASCADE
+);
+2023-05-09 22:22:39.725 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.725 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.725 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (1, 'Big City', 'Ho Chi Minh');
+2023-05-09 22:22:39.726 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (1, 'Big City', 'Ho Chi Minh');
+2023-05-09 22:22:39.726 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.726 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.726 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (2, 'City', 'Ha Noi');
+2023-05-09 22:22:39.726 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (2, 'City', 'Ha Noi');
+2023-05-09 22:22:39.726 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.726 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.726 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (3, 'Tour City', 'Da Lat');
+2023-05-09 22:22:39.726 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "City" ("Id", "Description", "Name")
+VALUES (3, 'Tour City', 'Da Lat');
+2023-05-09 22:22:39.726 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.726 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.726 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, NULL, 'Central Parl');
+2023-05-09 22:22:39.726 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, NULL, 'Central Parl');
+2023-05-09 22:22:39.726 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.726 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.845 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, NULL, 'Empire State Building');
+2023-05-09 22:22:39.846 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, NULL, 'Empire State Building');
+2023-05-09 22:22:39.846 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.846 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.846 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, NULL, 'Vung Tau');
+2023-05-09 22:22:39.846 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, NULL, 'Vung Tau');
+2023-05-09 22:22:39.846 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.846 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.846 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, NULL, 'Ba Ria');
+2023-05-09 22:22:39.846 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, NULL, 'Ba Ria');
+2023-05-09 22:22:39.846 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.846 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.846 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, NULL, 'Dong Thap');
+2023-05-09 22:22:39.846 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, NULL, 'Dong Thap');
+2023-05-09 22:22:39.846 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.846 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.846 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'Nothing Here', 'Hoc Mon');
+2023-05-09 22:22:39.846 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'Nothing Here', 'Hoc Mon');
+2023-05-09 22:22:39.846 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.846 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.846 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2023-05-09 22:22:39.847 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterest_CityId" ON "PointOfInterest" ("CityId");
+2023-05-09 22:22:39.847 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-05-09 22:22:39.847 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-05-09 22:22:39.847 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230509151940_MyFirst', '6.0.16');
+2023-05-09 22:22:39.847 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230509151940_MyFirst', '6.0.16');
+2023-05-09 22:22:39.848 +07:00 [DBG] Committing transaction.
+2023-05-09 22:22:39.858 +07:00 [DBG] Committed transaction.
+2023-05-09 22:22:39.861 +07:00 [DBG] Disposing transaction.
+2023-05-09 22:22:39.861 +07:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\CityInfo.db'.
+2023-05-09 22:22:39.861 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-05-09 22:22:39.863 +07:00 [DBG] 'CityInfoContext' disposed.

@@ -1,6 +1,7 @@
 ﻿using APIDemo;
 using APIDemo.DbContexts;
 using APIDemo.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -46,6 +47,9 @@ builder.Services.AddSingleton<CitiesDataStore>();
 builder.Services.AddDbContext<CityInfoContext>(dbContectOptions =>
     dbContectOptions.UseSqlite(builder.Configuration["ConnectionStrings:CityInfoConnectionString"]));
 
+builder.Services.AddScoped<ICityInfoRepository ,CityInfoRepository>();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

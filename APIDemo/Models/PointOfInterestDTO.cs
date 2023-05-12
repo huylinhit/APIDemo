@@ -1,5 +1,5 @@
 ﻿using System;
-namespace APIDemo.Model
+namespace APIDemo.Models
 {
 	public class PointOfInterestDTO
 	{

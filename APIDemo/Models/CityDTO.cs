@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace APIDemo.Model
+namespace APIDemo.Models
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
     public class CityDTO
     {
         public CityDTO()
         {
+            
         }
-
         public CityDTO(int id, string name, string? description)
         {
             Id = id;
@@ -29,11 +29,11 @@ namespace APIDemo.Model
         {
             get
             {
-                return PointOfInterest.Count();
+                return PointOfInterests.Count();
             }
         }
 
-        public ICollection<PointOfInterestDTO> PointOfInterest { get; set; }
+        public ICollection<PointOfInterestDTO> PointOfInterests { get; set; }
             = new List<PointOfInterestDTO>();
     }
 }

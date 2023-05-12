@@ -16,9 +16,8 @@ namespace APIDemo.Entities
 
         public string? Description { get; set; }
 
-        [ForeignKey("CityId")]
         public City? City { get; set; }
-
+        [ForeignKey("CityId")]
         public int CityId { get; set; }
 
         public PointOfInterest(string name)

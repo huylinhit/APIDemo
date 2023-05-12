@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIDemo.Migrations
 {
     [DbContext(typeof(CityInfoContext))]
-    [Migration("20230508052201_CityInfoSeedingData")]
-    partial class CityInfoSeedingData
+    [Migration("20230510043311_CityInfoContextUpdateName")]
+    partial class CityInfoContextUpdateName
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,7 +35,7 @@ namespace APIDemo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("City");
+                    b.ToTable("Cities");
 
                     b.HasData(
                         new
@@ -79,7 +79,7 @@ namespace APIDemo.Migrations
 
                     b.HasIndex("CityId");
 
-                    b.ToTable("PointOfInterest");
+                    b.ToTable("PointOfInterests");
 
                     b.HasData(
                         new
@@ -124,12 +124,17 @@ namespace APIDemo.Migrations
             modelBuilder.Entity("APIDemo.Entities.PointOfInterest", b =>
                 {
                     b.HasOne("APIDemo.Entities.City", "City")
-                        .WithMany()
+                        .WithMany("PointOfInterests")
                         .HasForeignKey("CityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("City");
+                });
+
+            modelBuilder.Entity("APIDemo.Entities.City", b =>
+                {
+                    b.Navigation("PointOfInterests");
                 });
 #pragma warning restore 612, 618
         }

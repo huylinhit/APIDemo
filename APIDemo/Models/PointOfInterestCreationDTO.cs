@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace APIDemo.Model
+namespace APIDemo.Models
 {
 	public class PointOfInterestCreationDTO
     {
@@ -11,16 +11,6 @@ namespace APIDemo.Model
         [MaxLength(100)]
 		public string? Description { get; set; }
 
-		public PointOfInterestCreationDTO()
-		{
-
-		}
-
-        public PointOfInterestCreationDTO(string name, string? description)
-        {
-            Name = name;
-            Description = description;
-        }
     }
 }
 
