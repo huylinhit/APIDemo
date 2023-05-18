@@ -6,6 +6,8 @@ namespace APIDemo.Services
     public interface ICityInfoRepository
     {
         Task<IEnumerable<City>> GetCitiesAsync();
+        Task<IEnumerable<City>> GetCitiesAsync(string? name, string? searchQuery);
+
         Task<City?> GetCityAsync(int cityId, bool includePointOfInterest);
 
         Task<bool> isCityExist(int cityId);
@@ -18,8 +20,8 @@ namespace APIDemo.Services
 
         Task<bool> SaveChangeAsync();
 
-        Task UpdatePointOfInterestForAsync(int cityId, PointOfInterest pointofinterest);
+        void DeletePointOfInterestForAsync(PointOfInterest pointOfInterest);
 
-
+        Task<IEnumerable<PointOfInterest>> GetPointOfInterestAsync(int cityId, string? name, string? searchQuery);
     }
 }

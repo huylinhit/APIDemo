@@ -19,6 +19,33 @@ namespace APIDemo.Services
             return await _context.Cities.ToListAsync();
         }
 
+        public async Task<IEnumerable<City>> GetCitiesAsync(string? name, string? searchQuery)
+        {
+            if (string.IsNullOrEmpty(name) &&
+                string.IsNullOrWhiteSpace(searchQuery))
+            {
+                return await GetCitiesAsync();
+            }
+
+            var collection = _context.Cities as IQueryable<City>;
+
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                name = name.Trim();
+                collection = collection.Where(c => c.Name.Equals(name));
+            }
+
+            if (!string.IsNullOrWhiteSpace(searchQuery))
+            {
+                searchQuery = searchQuery.Trim();
+                collection = collection.Where(c => c.Name.ToLower().Contains(searchQuery.ToLower())
+                || (c.Description != null && c.Description.ToLower().Contains(searchQuery.ToLower())));
+            }
+
+            return await collection.ToListAsync();
+        }
+
+
         public async Task<City?> GetCityAsync(int cityId, bool includePointOfInterest)
         {
             if (includePointOfInterest)
@@ -66,15 +93,43 @@ namespace APIDemo.Services
             }
         }
 
-        public async Task UpdatePointOfInterestForAsync(int cityId, PointOfInterest pointofinterest)
+        public void DeletePointOfInterestForAsync(PointOfInterest pointOfInterest)
         {
-            
-
+            _context.PointOfInterests.Remove(pointOfInterest);
         }
 
         public async Task<bool> SaveChangeAsync()
         {
             return await _context.SaveChangesAsync() >= 0;
         }
+
+
+        public async Task<IEnumerable<PointOfInterest>> GetPointOfInterestAsync(int cityId, string? name, string? searchQuery)
+        {
+            if (string.IsNullOrEmpty(name) && string.IsNullOrWhiteSpace(searchQuery))
+            {
+                return await GetPointOfInterestAsync(cityId);
+            }
+
+            var collection = _context.PointOfInterests.Where(item => item.CityId == cityId);
+
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                name = name.Trim();
+                collection = collection.Where(item => item.Name.Equals(name));
+            }
+
+            if (!string.IsNullOrWhiteSpace(searchQuery))
+            {
+                searchQuery = searchQuery.Trim();
+                collection = collection.Where(item => item.Name.ToLower().Contains(searchQuery.ToLower())
+                ||(item.Description != null && item.Description.Contains(searchQuery)));
+            }
+
+            return await collection
+                .OrderBy(item =>item.Name)
+                .ToListAsync();
+        }
+
     }
 }

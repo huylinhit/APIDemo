@@ -9,6 +9,7 @@ namespace APIDemo.Profiles
             CreateMap<Entities.PointOfInterest, Models.PointOfInterestDTO>();
             CreateMap<Models.PointOfInterestCreationDTO, Entities.PointOfInterest>();
             CreateMap<Models.PointOfInterestUpdateDTO, Entities.PointOfInterest>();
+            CreateMap<Entities.PointOfInterest, Models.PointOfInterestUpdateDTO>();
         }
     }
 }
