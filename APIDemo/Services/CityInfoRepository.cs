@@ -8,7 +8,7 @@ namespace APIDemo.Services
     {
         private readonly CityInfoContext _context;
         private readonly ILogger<CityInfoRepository> _logger;
-
+        const int maxPageSize = 20;
         public CityInfoRepository(CityInfoContext context, ILogger<CityInfoRepository> logger)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
@@ -19,14 +19,9 @@ namespace APIDemo.Services
             return await _context.Cities.ToListAsync();
         }
 
-        public async Task<IEnumerable<City>> GetCitiesAsync(string? name, string? searchQuery)
+        public async Task<(IEnumerable<City>, PaginationMetadata)> GetCitiesAsync(
+            string? name, string? searchQuery, int pageNumber, int pageSize)
         {
-            if (string.IsNullOrEmpty(name) &&
-                string.IsNullOrWhiteSpace(searchQuery))
-            {
-                return await GetCitiesAsync();
-            }
-
             var collection = _context.Cities as IQueryable<City>;
 
             if (!string.IsNullOrWhiteSpace(name))
@@ -42,7 +37,17 @@ namespace APIDemo.Services
                 || (c.Description != null && c.Description.ToLower().Contains(searchQuery.ToLower())));
             }
 
-            return await collection.ToListAsync();
+            var totalItemCount = collection.Count();
+
+            var paginationMetadata = new PaginationMetadata(totalItemCount, pageSize, pageNumber);
+
+            var collectionReturn = await collection
+                .OrderBy(c => c.Name)
+                .Skip(pageSize * (pageNumber - 1))
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (collectionReturn, paginationMetadata);
         }
 
 
