@@ -136,5 +136,9 @@ namespace APIDemo.Services
                 .ToListAsync();
         }
 
+        public async Task<bool> CityNameMatchCityId(string name, int id)
+        {
+            return await _context.Cities.AnyAsync(c => c.Name == name && c.Id == id);
+        }
     }
 }

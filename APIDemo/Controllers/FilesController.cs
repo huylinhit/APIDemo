@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.StaticFiles;
 namespace APIDemo.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/files")]
     public class FilesController : ControllerBase
     {

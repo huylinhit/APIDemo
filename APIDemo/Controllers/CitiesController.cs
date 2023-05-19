@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 using APIDemo.Models;
 using APIDemo.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace APIDemo.Controllers
 {
     [ApiController]
-    [Route("api/cities")]
+    //[Authorize("MustBeHaNoi")]
+    [Route("api/v{version:apiVersion}/cities")]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class CitiesController : ControllerBase
     {
         private readonly ICityInfoRepository _cityInfoRepository;

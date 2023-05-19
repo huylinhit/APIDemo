@@ -156,3 +156,12 @@ C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\APID
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\obj\Debug\net6.0\APIDemo.csproj.GenerateResource.cache
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nguyen Huy Linh\Desktop\C#Project\APIDemo\APIDemo\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll

@@ -23,5 +23,7 @@ namespace APIDemo.Services
         void DeletePointOfInterestForAsync(PointOfInterest pointOfInterest);
 
         Task<IEnumerable<PointOfInterest>> GetPointOfInterestAsync(int cityId, string? name, string? searchQuery);
+
+        Task<bool> CityNameMatchCityId(string name, int id);
     }
 }

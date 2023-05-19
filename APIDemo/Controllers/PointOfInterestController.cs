@@ -7,6 +7,7 @@ using APIDemo.Entities;
 using APIDemo.Models;
 using APIDemo.Services;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -15,7 +16,10 @@ using Microsoft.VisualBasic;
 namespace APIDemo.Controllers
 { 
     [ApiController]
-    [Route("api/cities/{cityId}/pointsofinterest")]
+    //[Authorize("MustBeHaNoi")]
+    [Route("api/v{version:apiVersion}/cities/{cityId}/pointsofinterest")]
+    [ApiVersion("2.0")]
+
     public class PointOfInterestController : ControllerBase
     {
         public readonly ILogger<PointOfInterestController> _logger;
@@ -41,6 +45,12 @@ namespace APIDemo.Controllers
         {
             try {
 
+                //var cityName = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
+
+                //if (!await _cityInfoRepository.CityNameMatchCityId(cityName, cityId))
+                //{
+                //    return Forbid();
+                //}
 
                 if (!await _cityInfoRepository.isCityExist(cityId))
                 {
